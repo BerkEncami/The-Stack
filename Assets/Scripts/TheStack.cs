@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class TheStack : MonoBehaviour {
 
@@ -32,7 +33,7 @@ public class TheStack : MonoBehaviour {
     private Vector3 lastTilePosition;
 
     [SerializeField] AudioClip clip;
-    [SerializeField] Text scoreText,bestScore;
+    [SerializeField] TextMeshProUGUI scoreText,bestScore;
     int score;
 
     void Start() {
